@@ -1,0 +1,2 @@
+Query 2 (Q no 12)
+SELECT Customer_ID , AVG(No of Items) FROM Orders GROUP BY Customer_ID;

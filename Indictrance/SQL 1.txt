@@ -1,0 +1,2 @@
+Query 1 (Q no 11)
+SELECT * FROM Customers WHERE Customer_ID IN (SELECT Customer_ID FROM Orders);

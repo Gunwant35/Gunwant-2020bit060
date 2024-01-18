@@ -1,0 +1,2 @@
+Query 4 (Q no 14)
+DELETE FROM Logs WHERE YEAR(Datetim)+1 < (SELECT Datetime FROM Logs where DAY(Datetime) = MAX(DAY(Datetime)) AND MOTNH(Datetime) = MAX(MONTH(Datetime )) AND YEAR(Datetime) = MAX(YEAR(Datetime )));

@@ -1,0 +1,2 @@
+Query 5 (Q no 15)
+SELECT * FROM Employees ORDER BY Salary desc LIMIT 5;

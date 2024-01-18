@@ -1,0 +1,2 @@
+Query 3 (Q no 13)
+UPDATE city = 'Delhi' IN Customers WHERE City = 'Mumbai';

@@ -1,0 +1,6 @@
+Query 6 (Q no 16)
+SLEECT Customer_ID, MAX(No of Items)
+FROM Orders
+GROUP BY Customer_ID 
+ORDER BY MAX(No of Items) desc
+LIMIT 3;
